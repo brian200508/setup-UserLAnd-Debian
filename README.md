@@ -9,5 +9,5 @@ Post install script for installing Chromium browser, VSCode and some developer s
 Download and execute the post-installation script; for example in the Temrinal window opened by default:
 
 ```bash
-cd ~
+sudo apt update -y && sudo apt install -y git && git clone https://github.com/brian200508/setup-UserLAnd-Debian.git
 ```
