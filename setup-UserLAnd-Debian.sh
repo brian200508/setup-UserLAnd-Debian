@@ -5,6 +5,11 @@ echo "Setting up Git, Python3 and essentials"
 sudo apt update -y
 sudo apt install -y build-essential curl git wget pgp python-is-python3 python3-distutils python3-pip apt-transport-https
 
+# Node.js
+echo "Setting up Node.js..."
+sudo apt update -y
+sudo apt install -y nodejs npm
+
 # AVR stuff
 echo "Setting up AVR stuff..."
 sudo apt update -y
