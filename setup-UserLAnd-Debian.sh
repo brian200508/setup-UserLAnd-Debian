@@ -50,9 +50,10 @@ sed -i 's/code --unity-launch %F/code --unity-launch %F --no-sandbox/' /usr/shar
 #sudo dpkg-reconfigure locales
 
 # Git config
-echo "Done.\n"
+echo "Done."
+echo ""
 echo "Don't forget Your Git config:"
 echo "    git config --global user.name \"Your Name\""
 echo "    git config --global user.email \"your.email-address@domain.com\""
-echo "\n"
+echo ""
 
