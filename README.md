@@ -18,7 +18,7 @@ chmod +x ./setup-UserLAnd-Debian/setup-UserLAnd-Debian.sh && ./setup-UserLAnd-De
 
 ## Optionally delete Your local clone of this Repo
 ```bash
-rm -rf ./setup-UserLAnd-Debian/setup-UserLAnd-Debian.sh
+rm -rf ./setup-UserLAnd-Debian
 ```
 
 That's it ;)
