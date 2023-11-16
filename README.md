@@ -11,3 +11,14 @@ Download and execute the post-installation script; for example in the Temrinal w
 ```bash
 sudo apt update -y && sudo apt install -y git && git clone https://github.com/brian200508/setup-UserLAnd-Debian.git
 ```
+
+```bash
+chmod +x ./setup-UserLAnd-Debian/setup-UserLAnd-Debian.sh && ./setup-UserLAnd-Debian/setup-UserLAnd-Debian.sh
+```
+
+## Optionally delete Your local clone of this Repo
+```bash
+rm -rf ./setup-UserLAnd-Debian/setup-UserLAnd-Debian.sh
+```
+
+That's it ;)
