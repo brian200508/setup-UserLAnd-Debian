@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#  Git, Python3 and essentials
+# Git, Python3 and essentials
 echo "Setting up Git, Python3 and essentials"
 sudo apt update -y
 sudo apt install -y build-essential curl git wget pgp python-is-python3 python3-distutils python3-pip apt-transport-https
