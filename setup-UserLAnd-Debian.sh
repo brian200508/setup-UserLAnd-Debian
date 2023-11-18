@@ -31,7 +31,7 @@ sudo apt install -y chromium
 # #...
 sed -i 's/chromium %U/chromium %U --no-sandbox/' /usr/share/applications/chromium.desktop
 
-#Download and install VSCode
+# Download and install VSCode
 echo "Setting up VSCode..."
 wget -O ~/code_stable_arm64.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-arm64'
 sudo apt install -y ~/code_stable_arm64.deb
